@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+   margin-bottom: 0px;
+   
+}
+label{
+    font-size: 40px;
+    font-weight: bolder;
+   
+}
+.container{
+    align-items: center;
+    padding: 50px 150px 0px 150px;
+    margin: auto;
+}
+.des{
+    padding-top: 150px;
+}
+h1{
+    color: rgba(34, 31, 31, 0.822); 
+}
+.des h1{
+    font-size: 35px;
+}
+p{
+    color: gray;
+}
+.des img{
+    width: 400px;
+    height: auto;
+}
+.des img:hover{
+    transform: translateY(0);
+}
+ul{
+    list-style-type: none;
+    right: 0;
+    float: right;
+    margin-right: 100px;
+    
+    
+}
+li{
+    
+   float: left;
+    margin: 20px;
+    margin-top: 0;
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    border-radius:16px;
+}
+a:hover{
+    color: rgb(255, 174, 0);
+    transition: .3s ease-in-out;
+    
+}
+a:active{
+    text-decoration: underline rgb(240, 14, 6);
+    background-color: white;
+    color: orange;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    transition: .3s ease-in-out;
+    background-color: rgb(71, 48, 5);
+    color: orange;
+}
+.description{
+    text-align: center;
+    margin-top: 180px;
+}
+.description .h1{
+    margin-top: -50px;
+}
+.description h1{
+    margin-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.description button{
+    float: left;
+}
+.more{
+    padding: 0px 40px;
+    margin-top: 0px;
+  
+}
+.row{
+    display: flex;
+    
+    
+}
+.col{
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    
+}
+.col p{
+    text-align: justify;
+    justify-content: center;
+    margin-right: 0;
+    
+}
+.vitenge{
+    margin-top: 100px;
+}
+.gents{
+    margin-top: 150px;
+}
+.line{
+    width: 50px;
+    height: 2px;
+    color: orange;
+    display: block;
+}
+img{
+    width:250px;
+    height: 250px;
+    margin-right: 2px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform .3s ease;
+    
+}
+img:hover{
+    transform: translateY(-5px);
+}
